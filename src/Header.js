@@ -40,7 +40,7 @@ function Header() {
             <Input name="contact" placeholder="Contact Number"></Input>
             <Input name="city" placeholder="City"></Input>
           </div>
-          <textarea placeholder='message'></textarea>
+          <textarea placeholder='Message'></textarea>
           <img className='captcha' src='images/captcha.svg' alt=''></img>
           <div className='App-form-bottom'>
             <button onClick="" >Submit</button>
