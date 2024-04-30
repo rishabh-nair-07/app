@@ -1,0 +1,45 @@
+.App-body{
+    background: #FFFFFF;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+}
+
+.body-image{
+    position: absolute;
+    width: 1170px;
+    height: 462px;
+    top: 695px;
+    left: 135px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.body-tile{
+    position: absolute;
+    width: 1,170px;
+    height: 386px;
+    top: 1287px;
+    left: 135px;
+    gap: 78px;
+    opacity: 0px;
+
+}
+
+.body-tile p{
+    font-family: Nunito Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    margin: 0;
+}
+
+.Dropdowns {
+    position: absolute;
+    width: 622px;
+    height:386px;
+    gap: 40px;
+    opacity: 0px;
+}

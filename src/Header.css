@@ -1,0 +1,170 @@
+.logo {
+    position: relative;
+    width: 209px;
+    height: 51.61px;
+    top: 40px;
+    left: 136px;
+    gap: 890px;
+    opacity: 0px;
+  }
+
+  .logo-block{
+    display: block;
+    height: auto;
+  }
+
+  #watermark{
+    position: absolute;
+    width: 713px;
+    height: 175px;
+    top: 112px;
+    left: 364px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+  }
+
+  #watermark h1{
+    font-family: Nunito Sans;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 174.59px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2E0A57;
+    opacity: 0.2;
+  }
+  
+  .App-header {
+    background-image: url('../public/images/background.svg');
+    background-color: #1E053C;
+    background-blend-mode: color-burn;
+    width: 100%;
+    height: 970px;
+    margin: auto;
+    position: relative;
+
+  }
+  
+  .centre-body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 169px;
+    left: 180px;
+    gap: 40px;
+    justify-content: space-between;
+  }
+
+  .hr{
+    width: 427px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .App-description{
+    width: 440px;
+    height: 195px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+  
+  .App-description h1{
+    font-family: Nunito Sans;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .App-description .orange-label{
+    color: #EAB705;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  
+  }
+  
+  .App-description p{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .Icon{
+    width: 20px;
+    height: 20px;
+    padding: 0px 3px 0px 3px;
+    gap: 10px;
+    opacity: 0px;
+  }
+  
+  .App-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 585px;
+    height: 425px;
+    top: 170px;
+    gap: 34px;
+    opacity: 0px;
+  }
+  
+  .form-row{
+    width: 585px;
+    height: 44px;
+    grid-gap: 25px;
+    opacity: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .form-input{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 27px;
+    gap: 3px;
+    opacity: 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #743EB4;
+    text-decoration-color: #FFFFFF;
+    background: transparent;
+  }
+  
+  textarea{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #743EB4;
+    opacity: 100%;
+    text-decoration-color: #FFFFFF;
+    background: transparent;
+    width: 585px;
+    height: 74px;
+    gap: 50px;
+  }
+  
+  button{
+    width: 124px;
+    height: 50px;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: #743EB4;
+    color: #FFFFFF;
+  }

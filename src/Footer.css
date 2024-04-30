@@ -1,0 +1,23 @@
+.App-footer{
+    background: #1E053C;
+    position: relative;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 200px;
+    top: 1773px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.App-footer img{
+    display: inline;
+    position: relative;
+    width: 209px;
+    height: 51.61px;
+    top: 70px;
+    left: 136px;
+    gap: 0px;
+    opacity: 0px;
+    vertical-align: middle;
+}
