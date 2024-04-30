@@ -47,25 +47,25 @@
   
   .centre-body{
     position: relative;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 440px 2px 585px;
     top: 169px;
     left: 180px;
-    gap: 40px;
-    justify-content: space-between;
+    gap: 50px;
   }
 
-  .hr{
-    width: 427px;
-    height: 0px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-
+  .vertical{
+    position: absolute;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 0px;
+    height: 427px;
+    left: 0px;
+    background-color: orange;
   }
   
   .App-description{
-    width: 440px;
+    width: max-content;
     height: 195px;
     gap: 0px;
     opacity: 0px;
@@ -113,14 +113,14 @@
   }
   
   .App-form{
+    position: absolute;
+    grid-column: 3 / 4;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 585px;
     height: 425px;
-    top: 170px;
-    gap: 34px;
-    opacity: 0px;
+    left: 0;
+
   }
   
   .form-row{
@@ -156,6 +156,13 @@
     width: 585px;
     height: 74px;
     gap: 50px;
+  }
+
+  .captcha{
+    position: relative;
+    margin: -20px;
+    width: 300px;
+    height: 74px;
   }
   
   button{

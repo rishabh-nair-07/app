@@ -12,7 +12,7 @@ function Header() {
       <div className='centre-body'>
         <div className="App-description">
           <h1>
-            Need something? The IPV Squad is here to help!!
+            Need something?<br/> The IPV Squad is <br/>here to help!!
           </h1>
           <p className='orange-label'>
             <img className="Icon" src="images/locationIcon.png" alt=""></img>
@@ -21,6 +21,7 @@ function Header() {
           <p>
             DS IKON, near Cars24, Baner, Pune, Maharashtra - 411045
           </p>
+          <br/>
           <p className='orange-label'>
               <img className="Icon" src="images/PhoneIcon.png" alt=""></img>
               Contact Information
@@ -29,7 +30,7 @@ function Header() {
               Call : +91 82370 39001 / +91 82370 39002
           </p>
         </div>
-        <hr />
+        <hr  className='vertical'/>
         <div className="App-form">
           <div className='form-row'>
             <Input name="name" placeholder="Your Name"></Input>
@@ -40,6 +41,7 @@ function Header() {
             <Input name="city" placeholder="City"></Input>
           </div>
           <textarea placeholder='message'></textarea>
+          <img className='captcha' src='images/captcha.svg' alt=''></img>
           <div className='App-form-bottom'>
             <button onClick="" >Submit</button>
           </div>
