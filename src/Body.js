@@ -1,4 +1,5 @@
 import './Body.css';
+import Collapsible from 'react-collapsible';
 
 function Body() {
     return (
@@ -10,31 +11,35 @@ function Body() {
                     <p> We got you covered.</p>
                 </div>
                 <div className='Dropdowns'>
-                    <ul>
-                        <li className='question'>
-                            What is ImageProVision ?    
-                        </li>
-                        <li className='answer'>
-                            ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
-                        </li>
+                        <Collapsible className='question' trigger="What is ImageProVision ?">
+                            <p className='answer'>
+                                ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
+                            </p>
+                        </Collapsible> 
+                        <br/>
+                        <hr/>
+                        <Collapsible className='question'  trigger="How does image processing work?">
+                            <p className='answer'>
+                                ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
+                            </p>
+                        </Collapsible> 
+                        <br/>
+                        <hr/>
+                        <Collapsible className='question'  trigger="What is Image Analytics?">
+                            <p className='answer'>
+                                ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
+                            </p>
+                        </Collapsible> 
+                        <br/>
+                        <hr/>
+                        <Collapsible className='question'  trigger="Which industries can use Image Analytics?">
+                            <p className='answer'>
+                                ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
+                            </p>
+                        </Collapsible> 
+                
                         <br />
                         <hr />
-                        <li className='question'> 
-                            How does image processing work?
-                        </li>
-                        <br />
-                        <hr />
-                        <li className='question'>
-                            What is Image Analytics?
-                        </li>
-                        <br />
-                        <hr />
-                        <li className='question'>
-                            Which industries can use Image Analytics?
-                        </li>
-                        <br />
-                        <hr />
-                    </ul>
                 </div>
             </div>
         </div>
