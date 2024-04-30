@@ -150,6 +150,14 @@
     text-decoration-color: #FFFFFF;
     background: transparent;
   }
+
+  .error{
+    visibility: hidden;
+  }
+
+  .email .error{
+    visibility: visible;
+  }
   
   textarea{
     box-sizing: border-box;
@@ -180,6 +188,8 @@
     background-color: #743EB4;
     color: #FFFFFF;
   }
+
+ 
 
 
 @media only screen and (max-width: 600px){
