@@ -49,6 +49,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 440px 2px 585px;
+    grid-template-rows: 700px;
     top: 169px;
     left: 180px;
     gap: 50px;
@@ -65,7 +66,6 @@
   }
   
   .App-description{
-    width: max-content;
     height: 195px;
     gap: 0px;
     opacity: 0px;

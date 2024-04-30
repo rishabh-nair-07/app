@@ -17,18 +17,22 @@ function Body() {
                         <li className='answer'>
                             ImageProVision Technology Pvt. Ltd is a company that processes and analyses images with the help of image processing applications.
                         </li>
+                        <br />
                         <hr />
                         <li className='question'> 
                             How does image processing work?
                         </li>
+                        <br />
                         <hr />
                         <li className='question'>
                             What is Image Analytics?
                         </li>
+                        <br />
                         <hr />
                         <li className='question'>
                             Which industries can use Image Analytics?
                         </li>
+                        <br />
                         <hr />
                     </ul>
                 </div>
